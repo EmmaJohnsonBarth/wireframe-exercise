@@ -1,25 +1,39 @@
 header {
-    background-color:black;
+    background-color: black;
+    /* align-items: stretch; */
     color: whitesmoke;
-    align: center;
+    /* align: center; */
+    width: 100%;
 }
 
+/* 
+main {
+    align-items: center;
+} */
 
+ul {
+    height: 70px;
+}
 
 .nav {
     border: 1px;
     border-color: black;
-    border-style:solid;
+    border-style: solid;
     padding: 30px;
     display: inline-block;
     margin: 5px;
-    box-align: center;
 }
 
-.the-button {
-
-}
+/* .the-button {} */
 
 p {
     width: 300px;
+}
+
+.one-line {
+    align-content: center;
+}
+
+.big-img {
+    padding: 15px;
 }

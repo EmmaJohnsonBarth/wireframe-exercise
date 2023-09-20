@@ -1,0 +1,25 @@
+header {
+    background-color:black;
+    color: whitesmoke;
+    align: center;
+}
+
+
+
+.nav {
+    border: 1px;
+    border-color: black;
+    border-style:solid;
+    padding: 30px;
+    display: inline-block;
+    margin: 5px;
+    box-align: center;
+}
+
+.the-button {
+
+}
+
+p {
+    width: 300px;
+}

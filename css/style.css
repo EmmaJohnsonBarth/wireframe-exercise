@@ -1,39 +1,52 @@
 header {
     background-color: black;
-    /* align-items: stretch; */
     color: whitesmoke;
-    /* align: center; */
     width: 100%;
 }
 
-/* 
 main {
-    align-items: center;
-} */
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 ul {
-    height: 70px;
+    height: 100px;
+    width: 100%;
 }
 
 .nav {
-    border: 1px;
-    border-color: black;
-    border-style: solid;
     padding: 30px;
     display: inline-block;
-    margin: 5px;
-}
-
-/* .the-button {} */
-
-p {
-    width: 300px;
-}
-
-.one-line {
-    align-content: center;
+    align-items: center;
 }
 
 .big-img {
     padding: 15px;
+    align-items: center;
+}
+
+.left {
+    position: absolute;
+}
+
+.right {
+    text-align: right;
+    align-items: right;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    width: 300px;
+    float: right;
 }

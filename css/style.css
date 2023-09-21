@@ -61,21 +61,40 @@ section {
     margin-bottom: 30px;
 
 }
-div img {
-    margin-right: 30px;
-}
+section div {
+    width: calc(50% - 30px);
+    padding-left: 30px;
+  }
+
+  button {
+    border: none;
+    /* padding: 10px 30px; */
+    background: #1dd147;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 350ms;
+    cursor: pointer;
+  }
+
+
+  footer {
+    background: #444;
+    height: 150px;
+  }
 /* div img:last-child {
     margin-right: 0px;
 } */
-
+/* 
 .left {
     position: absolute;
-}
+} */
 
-.right {
+/* .right {
     text-align: right;
     align-items: right;
-}
+} */
 
 h1 {
     font-weight: bold;
@@ -84,5 +103,9 @@ h1 {
 
 p {
     width: 300px;
-    float: right;
+    /* float: right; */
 }
+
+/* button {
+    clear:both;
+} */

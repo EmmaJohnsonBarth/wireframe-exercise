@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+
 header {
-    background-color: black;
+    background-color: rgb(94, 89, 89);
     color: whitesmoke;
     width: 100%;
+    height: 125px;
+    
 }
 
 main {
@@ -10,36 +17,84 @@ main {
 }
 
 .logo {
-    /* margin-top: 25px; */
-    /* margin-bottom: 25px; */
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 20px;
+
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+    float: left;
+
 }
 
 ul {
     height: 100px;
     width: 100%;
+    width: 960px;
+    margin: 0 auto;
 }
 
-.nav {
+li {
+    /* gives us back access to change vertical height  */
+    display: inline-block;
+    margin-left:50px;
+    margin-top: 50px;
+}
+
+
+
+
+/* .nav {
     padding: 30px;
     display: inline-block;
     align-items: center;
-}
+} */
 
 .big-img {
-    padding: 15px;
+    padding: 30px 0px 30px 0px;
     align-items: center;
+    
 }
 
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+section div {
+    width: calc(50% - 30px);
+    padding-left: 30px;
+  }
+
+  button {
+    border: none;
+    /* padding: 10px 30px; */
+    background: #1dd147;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 350ms;
+    cursor: pointer;
+  }
+
+
+  footer {
+    background: #444;
+    height: 150px;
+  }
+/* div img:last-child {
+    margin-right: 0px;
+} */
+/* 
 .left {
     position: absolute;
-}
+} */
 
-.right {
+/* .right {
     text-align: right;
     align-items: right;
-}
+} */
 
 h1 {
     font-weight: bold;
@@ -48,5 +103,9 @@ h1 {
 
 p {
     width: 300px;
-    float: right;
+    /* float: right; */
 }
+
+/* button {
+    clear:both;
+} */
